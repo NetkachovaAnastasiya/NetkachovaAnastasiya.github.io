@@ -1,0 +1,139 @@
+div {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Heebo", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+.header__wrap {
+  background-color: cadetblue;
+  height: 400px;
+}
+.header__title {
+  padding: 20px;
+}
+.header__wrap-titles,
+.header__title-proffesion,
+.header__photo {
+  text-align: center;
+  color: rgb(212, 245, 228);
+}
+.header__img {
+  padding: 10px;
+  height: 200px;
+  border-radius: 50%;
+}
+.header__social-media {
+  display: flex;
+  justify-content: center;
+}
+i {
+  font-size: 50px;
+  color: rgb(212, 245, 228);
+  padding-right: 10px;
+}
+.main__aside {
+  background-color: rgba(182, 194, 193, 0.835);
+  width: 50%;
+  color: #fff;
+  font-weight: 500;
+}
+.main__content,
+.main__contacts {
+  margin: 50px;
+  line-height: 3;
+  font-size: 20px;
+}
+.main__aside-education-title,
+.main__aside-hobbies-list,
+.main__content-about,
+.skills__list-label {
+  color: cadetblue;
+  font-weight: 800;
+  font-size: 30px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+  .main {
+    flex-direction: column-reverse;
+  }
+  .main__aside {
+    width: 100%;
+  }
+  .main__content,
+  .main__contacts {
+    margin: 30px;
+    line-height: 2;
+    font-size: 20px;
+  }
+  .main__aside-education-title,
+  .main__aside-hobbies-list,
+  .main__content-about,
+  .skills__list-label {
+    color: cadetblue;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .skills__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 60px 0 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    text-align: center;
+  }
+  i{
+    font-size: 40px;
+  }
+  .header__img {
+    height: 150px;
+  }
+  .header__wrap {
+    height: 335px;
+  }
+  .header__title{
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 576px) {
+  i{
+    font-size: 30px;
+  }
+  .header__img {
+    height: 100px;
+  }
+  .header__wrap {
+    height: 270px;
+  }
+}
