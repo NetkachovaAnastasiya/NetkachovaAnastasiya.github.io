@@ -126,6 +126,9 @@ i {
   .header__title{
     font-size: 28px;
   }
+  .skills__list-label {
+    text-align: justify;
+  }
 }
 
 @media (max-width: 576px) {
@@ -137,5 +140,14 @@ i {
   }
   .header__wrap {
     height: 270px;
+  }
+  .header__title {
+    font-size: 20px;
+  }
+  .skills__list-label {
+    width: 100px;
+  }
+  .main__content-text {
+    text-align: justify;
   }
 }
